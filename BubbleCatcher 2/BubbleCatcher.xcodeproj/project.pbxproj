@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		930E7D9C1AE935AD008E323E /* gameOver.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 930E7D9B1AE935AD008E323E /* gameOver.mp3 */; };
+		93446AB51AE7013E0079CF32 /* PauseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93446AB41AE7013E0079CF32 /* PauseViewController.swift */; };
+		93C2E8511AE01B0200B8405E /* BubbleCatcher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93C2E84F1AE01B0200B8405E /* BubbleCatcher.xcdatamodeld */; };
+		93C2E8531AE01D1B00B8405E /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C2E8521AE01D1B00B8405E /* UserData.swift */; };
+		93D7551B1AE4437D00E32D27 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D7551A1AE4437D00E32D27 /* SettingsViewController.swift */; };
+		D00F3C571ADC28CF00B4C735 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00F3C561ADC28CF00B4C735 /* GameOverViewController.swift */; };
+		D05047F01AE5DA1200863FDD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05047EF1AE5DA1200863FDD /* AVFoundation.framework */; };
+		D0BBEB6F1AE6AEEC005157B6 /* Classical.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0BBEB6D1AE6AEEC005157B6 /* Classical.mp3 */; };
+		D0BBEB701AE6AEEC005157B6 /* Classical.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0BBEB6D1AE6AEEC005157B6 /* Classical.mp3 */; };
+		D0BBEB7A1AE6BA77005157B6 /* BubbleClick1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0BBEB791AE6BA77005157B6 /* BubbleClick1.mp3 */; };
+		D0BBEB7B1AE6BA77005157B6 /* BubbleClick1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D0BBEB791AE6BA77005157B6 /* BubbleClick1.mp3 */; };
+		D0D0B5571AC498C300632D93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D0B5561AC498C300632D93 /* AppDelegate.swift */; };
+		D0D0B5591AC498C300632D93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D0B5581AC498C300632D93 /* ViewController.swift */; };
+		D0D0B55C1AC498C300632D93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D0B55A1AC498C300632D93 /* Main.storyboard */; };
+		D0D0B55E1AC498C300632D93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D0B55D1AC498C300632D93 /* Images.xcassets */; };
+		D0D0B5611AC498C300632D93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D0B55F1AC498C300632D93 /* LaunchScreen.xib */; };
+		D0D0B56D1AC498C300632D93 /* BubbleCatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D0B56C1AC498C300632D93 /* BubbleCatcherTests.swift */; };
+		D0D0B5771AC4A4CC00632D93 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D0B5761AC4A4CC00632D93 /* GameViewController.swift */; };
+		D0DDF27A1AE690D60091BBD7 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDF2791AE690D60091BBD7 /* CustomTableViewCell.swift */; };
+		D212F2031AE8AAA1004E96CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D212F2021AE8AAA1004E96CB /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0D0B5671AC498C300632D93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D0B5491AC498C300632D93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D0B5501AC498C300632D93;
+			remoteInfo = BubbleCatcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		930E7D9B1AE935AD008E323E /* gameOver.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameOver.mp3; sourceTree = "<group>"; };
+		93446AB41AE7013E0079CF32 /* PauseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PauseViewController.swift; sourceTree = "<group>"; };
+		93C2E8501AE01B0200B8405E /* BubbleCatcher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BubbleCatcher.xcdatamodel; sourceTree = "<group>"; };
+		93C2E8521AE01D1B00B8405E /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		93D7551A1AE4437D00E32D27 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D00F3C561ADC28CF00B4C735 /* GameOverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		D05047EF1AE5DA1200863FDD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D05047F11AE5DC6300863FDD /* BubbleCatcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = BubbleCatcher.entitlements; sourceTree = "<group>"; };
+		D0BBEB6D1AE6AEEC005157B6 /* Classical.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Classical.mp3; sourceTree = "<group>"; };
+		D0BBEB791AE6BA77005157B6 /* BubbleClick1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BubbleClick1.mp3; sourceTree = "<group>"; };
+		D0D0B5511AC498C300632D93 /* BubbleCatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleCatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D0B5551AC498C300632D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D0B5561AC498C300632D93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0D0B5581AC498C300632D93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0D0B55B1AC498C300632D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0D0B55D1AC498C300632D93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0D0B5601AC498C300632D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D0D0B5661AC498C300632D93 /* BubbleCatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubbleCatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D0B56B1AC498C300632D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D0B56C1AC498C300632D93 /* BubbleCatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleCatcherTests.swift; sourceTree = "<group>"; };
+		D0D0B5761AC4A4CC00632D93 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D0DDF2791AE690D60091BBD7 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		D212F2021AE8AAA1004E96CB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0D0B54E1AC498C300632D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D212F2031AE8AAA1004E96CB /* QuartzCore.framework in Frameworks */,
+				D05047F01AE5DA1200863FDD /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D0B5631AC498C300632D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0D0B5481AC498C300632D93 = {
+			isa = PBXGroup;
+			children = (
+				D212F2021AE8AAA1004E96CB /* QuartzCore.framework */,
+				D05047EF1AE5DA1200863FDD /* AVFoundation.framework */,
+				D0D0B5531AC498C300632D93 /* BubbleCatcher */,
+				D0D0B5691AC498C300632D93 /* BubbleCatcherTests */,
+				D0D0B5521AC498C300632D93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0D0B5521AC498C300632D93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0D0B5511AC498C300632D93 /* BubbleCatcher.app */,
+				D0D0B5661AC498C300632D93 /* BubbleCatcherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0D0B5531AC498C300632D93 /* BubbleCatcher */ = {
+			isa = PBXGroup;
+			children = (
+				D05047F11AE5DC6300863FDD /* BubbleCatcher.entitlements */,
+				D0D0B5561AC498C300632D93 /* AppDelegate.swift */,
+				D0D0B5581AC498C300632D93 /* ViewController.swift */,
+				D0D0B55A1AC498C300632D93 /* Main.storyboard */,
+				93446AB41AE7013E0079CF32 /* PauseViewController.swift */,
+				93D7551A1AE4437D00E32D27 /* SettingsViewController.swift */,
+				D00F3C561ADC28CF00B4C735 /* GameOverViewController.swift */,
+				D0D0B5761AC4A4CC00632D93 /* GameViewController.swift */,
+				93C2E84F1AE01B0200B8405E /* BubbleCatcher.xcdatamodeld */,
+				93C2E8521AE01D1B00B8405E /* UserData.swift */,
+				D0D0B55D1AC498C300632D93 /* Images.xcassets */,
+				D0D0B55F1AC498C300632D93 /* LaunchScreen.xib */,
+				D0D0B5541AC498C300632D93 /* Supporting Files */,
+				D0DDF2791AE690D60091BBD7 /* CustomTableViewCell.swift */,
+			);
+			path = BubbleCatcher;
+			sourceTree = "<group>";
+		};
+		D0D0B5541AC498C300632D93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				930E7D9B1AE935AD008E323E /* gameOver.mp3 */,
+				D0BBEB791AE6BA77005157B6 /* BubbleClick1.mp3 */,
+				D0BBEB6D1AE6AEEC005157B6 /* Classical.mp3 */,
+				D0D0B5551AC498C300632D93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0D0B5691AC498C300632D93 /* BubbleCatcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0D0B56C1AC498C300632D93 /* BubbleCatcherTests.swift */,
+				D0D0B56A1AC498C300632D93 /* Supporting Files */,
+			);
+			path = BubbleCatcherTests;
+			sourceTree = "<group>";
+		};
+		D0D0B56A1AC498C300632D93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0D0B56B1AC498C300632D93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0D0B5501AC498C300632D93 /* BubbleCatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D0B5701AC498C300632D93 /* Build configuration list for PBXNativeTarget "BubbleCatcher" */;
+			buildPhases = (
+				D0D0B54D1AC498C300632D93 /* Sources */,
+				D0D0B54E1AC498C300632D93 /* Frameworks */,
+				D0D0B54F1AC498C300632D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BubbleCatcher;
+			productName = BubbleCatcher;
+			productReference = D0D0B5511AC498C300632D93 /* BubbleCatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0D0B5651AC498C300632D93 /* BubbleCatcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D0B5731AC498C300632D93 /* Build configuration list for PBXNativeTarget "BubbleCatcherTests" */;
+			buildPhases = (
+				D0D0B5621AC498C300632D93 /* Sources */,
+				D0D0B5631AC498C300632D93 /* Frameworks */,
+				D0D0B5641AC498C300632D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0D0B5681AC498C300632D93 /* PBXTargetDependency */,
+			);
+			name = BubbleCatcherTests;
+			productName = BubbleCatcherTests;
+			productReference = D0D0B5661AC498C300632D93 /* BubbleCatcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0D0B5491AC498C300632D93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					D0D0B5501AC498C300632D93 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 583N2DJ8B2;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
+					};
+					D0D0B5651AC498C300632D93 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D0D0B5501AC498C300632D93;
+					};
+				};
+			};
+			buildConfigurationList = D0D0B54C1AC498C300632D93 /* Build configuration list for PBXProject "BubbleCatcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0D0B5481AC498C300632D93;
+			productRefGroup = D0D0B5521AC498C300632D93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0D0B5501AC498C300632D93 /* BubbleCatcher */,
+				D0D0B5651AC498C300632D93 /* BubbleCatcherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0D0B54F1AC498C300632D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BBEB7A1AE6BA77005157B6 /* BubbleClick1.mp3 in Resources */,
+				D0D0B55C1AC498C300632D93 /* Main.storyboard in Resources */,
+				930E7D9C1AE935AD008E323E /* gameOver.mp3 in Resources */,
+				D0D0B5611AC498C300632D93 /* LaunchScreen.xib in Resources */,
+				D0BBEB6F1AE6AEEC005157B6 /* Classical.mp3 in Resources */,
+				D0D0B55E1AC498C300632D93 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D0B5641AC498C300632D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0BBEB701AE6AEEC005157B6 /* Classical.mp3 in Resources */,
+				D0BBEB7B1AE6BA77005157B6 /* BubbleClick1.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0D0B54D1AC498C300632D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C2E8531AE01D1B00B8405E /* UserData.swift in Sources */,
+				D00F3C571ADC28CF00B4C735 /* GameOverViewController.swift in Sources */,
+				D0DDF27A1AE690D60091BBD7 /* CustomTableViewCell.swift in Sources */,
+				93D7551B1AE4437D00E32D27 /* SettingsViewController.swift in Sources */,
+				D0D0B5591AC498C300632D93 /* ViewController.swift in Sources */,
+				D0D0B5771AC4A4CC00632D93 /* GameViewController.swift in Sources */,
+				93C2E8511AE01B0200B8405E /* BubbleCatcher.xcdatamodeld in Sources */,
+				D0D0B5571AC498C300632D93 /* AppDelegate.swift in Sources */,
+				93446AB51AE7013E0079CF32 /* PauseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D0B5621AC498C300632D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D0B56D1AC498C300632D93 /* BubbleCatcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0D0B5681AC498C300632D93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0D0B5501AC498C300632D93 /* BubbleCatcher */;
+			targetProxy = D0D0B5671AC498C300632D93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0D0B55A1AC498C300632D93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D0B55B1AC498C300632D93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0D0B55F1AC498C300632D93 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D0B5601AC498C300632D93 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0D0B56E1AC498C300632D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0D0B56F1AC498C300632D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0D0B5711AC498C300632D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BubbleCatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0D0B5721AC498C300632D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BubbleCatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0D0B5741AC498C300632D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BubbleCatcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleCatcher.app/BubbleCatcher";
+			};
+			name = Debug;
+		};
+		D0D0B5751AC498C300632D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BubbleCatcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubbleCatcher.app/BubbleCatcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0D0B54C1AC498C300632D93 /* Build configuration list for PBXProject "BubbleCatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D0B56E1AC498C300632D93 /* Debug */,
+				D0D0B56F1AC498C300632D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D0B5701AC498C300632D93 /* Build configuration list for PBXNativeTarget "BubbleCatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D0B5711AC498C300632D93 /* Debug */,
+				D0D0B5721AC498C300632D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D0B5731AC498C300632D93 /* Build configuration list for PBXNativeTarget "BubbleCatcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D0B5741AC498C300632D93 /* Debug */,
+				D0D0B5751AC498C300632D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93C2E84F1AE01B0200B8405E /* BubbleCatcher.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93C2E8501AE01B0200B8405E /* BubbleCatcher.xcdatamodel */,
+			);
+			currentVersion = 93C2E8501AE01B0200B8405E /* BubbleCatcher.xcdatamodel */;
+			path = BubbleCatcher.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0D0B5491AC498C300632D93 /* Project object */;
+}
